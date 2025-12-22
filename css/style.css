@@ -183,10 +183,10 @@ label {
     transition: background-color linear;
 }
 .header-sidebar li:hover {
-    background-color: #52489C;
+    background-color: #1500b3;
 }
 .header-sidebar .active {
-    background-color: #52489C;
+    background-color: #1300a1;
 }
 .header-sidebar a{
     color: white !important;
@@ -480,7 +480,7 @@ footer a {
     font-weight: 500;
 }
 footer .active {
-    color: #ABA9DF !important;
+    color: rgb(17, 0, 255) !important;
 }
 
 /* Misc. */
