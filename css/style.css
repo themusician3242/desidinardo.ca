@@ -50,7 +50,7 @@ section, .header, footer {
 /* Header & Sidebar */
 .header {
     z-index: 2;
-    background-image: linear-gradient(to right, rgba(82,72,156,1),rgba(56,49,106,1));
+    background-image: linear-gradient(to right, rgba(16,72,156,1),rgba(16,49,106,1));
 }
 .navbar-brand {
     font-size: 2rem !important;
@@ -60,7 +60,7 @@ section, .header, footer {
 /* Sidebars */
 .header-sidebar {
     /* Style: */
-    background-color: rgba(62,54,117,1);
+    background-color: rgb(3, 31, 107);
     font-family: Noto Sans, sans-serif;
     font-weight: 600;
     z-index: 5;
@@ -471,7 +471,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #3B30B4;
+    background-color: #1102b6;
     grid-column-start: 1;
     grid-column-end: 6;
 }
