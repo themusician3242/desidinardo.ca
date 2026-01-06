@@ -468,6 +468,12 @@ main {
 .img-clickable:hover {
     transform: scale(1.1);
 }
+@media screen and (max-width: 400px) {
+    .img-clickable:hover {
+        transform: scale(1.5);
+        z-index: 5;
+    }
+}
 
 /* Footer */
 footer {

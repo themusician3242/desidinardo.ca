@@ -232,6 +232,21 @@ export const museSectionCollage = `
                         <div class="carousel-item">
                              <img src="images/poems/young-artist/image-44.jpg" alt="Image 44" class="w-100" style="max-width:800px;">
                         </div>
+                        <div class="carousel-item">
+                             <img src="images/poems/young-artist/image-45.jpeg" alt="Image 44" class="w-100" style="max-width:800px;">
+                        </div>
+                        <div class="carousel-item">
+                             <img src="images/poems/young-artist/image-46.jpeg" alt="Image 44" class="w-100" style="max-width:400px;">
+                        </div>
+                        <div class="carousel-item">
+                             <img src="images/poems/young-artist/image-47.jpeg" alt="Image 44" class="w-100" style="max-width:400px;">
+                        </div>
+                        <div class="carousel-item">
+                             <img src="images/poems/young-artist/image-48.jpeg" alt="Image 44" class="w-100" style="max-width:400px;">
+                        </div>
+                        <div class="carousel-item">
+                             <img src="images/poems/young-artist/image-49.jpeg" alt="Image 44" class="w-100" style="max-width:400px;">
+                        </div>
                     </div>
                     <a class="carousel-control-next bg-primary" data-bs-target="#works6Carousel" data-bs-slide="next"
                         style="height: 50px; width: 50px; margin: auto; cursor: pointer;">
@@ -251,10 +266,10 @@ export const museCarousel = `
                     <div class="carousel-item active">
                         <h4 class="text-light">For study in High School and Post Secondary Curriculums</h4>
                         <div class="container text-center">
-                            <img class="w-100" src="images/muse/section-1-image-3.png" alt="For Study In High School & Post Secondary Curriculums">
-                            <div class="d-flex flex-row w-50 m-auto" style="position: relative;">
-                                <img class="w-50 img-clickable" src="images/muse/section-1-image-1.png">
-                                <img class="w-50 img-clickable" src="images/muse/section-1-image-2.png">
+                            <img class="w-100 mb-2 img-clickable" src="images/muse/section-1-image-3.png" alt="For Study In High School & Post Secondary Curriculums">
+                            <div class="gap-2 d-flex flex-row flex-wrap w-100 m-auto justify-content-center" style="position: relative;">
+                                <img class="w-100 img-clickable" src="images/muse/section-1-image-1.png" style="max-width: 150px;">
+                                <img class="w-100 img-clickable" src="images/muse/section-1-image-2.png" style="max-width: 150px">
                             </div>
                         </div>
                     </div>
@@ -289,14 +304,17 @@ export const museCarousel = `
                     <div class="carousel-item">
                         <h4 class="text-light">​Rainbird In The Annex</h4>
                         <p class="text-light">On large posters found on the <a href="works.html#works-5-content" class="bg-00C4D2">TTC.</a></p>
+                        <div style="overflow: scroll;"> 
                             <img style="max-width: 1000px;" src="images/poems/educator/image-4.jpg">
+                        </div> 
+                        <a href="http://127.0.0.1:8080/images/poems/educator/image-4.jpg" class="btn btn-outline-primary mt-2"> View In Full </a>
                     </div>
                     <div class="carousel-item">
                         <h4 class="text-light">​Poems by Desi Di Nardo translated by Javad Rhabar</h4>
                         <p class="text-light"><a href="#" class="bg-00C4D2">Javad Rhabar</a> is a publisher/news editor living in Iran who has translated into Farsi "Rainbird in the Annex" and "Poetry
                         on Lake Simcoe".</p>
                             <h5 class="text-light">Poetry on Lake Simcoe</h5>
-                            <img class="w-50" src="images/muse/section-5-image-1.jpg">
+                            <img class="w-100" style="max-width: 400px" src="images/muse/section-5-image-1.jpg">
                     </div>
                     <div class="carousel-item">
                         <h4 class="text-light">​Poems by Desi Di Nardo translated by Javad Rhabar</h4>
@@ -304,7 +322,7 @@ export const museCarousel = `
                             the Annex" and "Poetry
                             on Lake Simcoe".</p>
                             <h5 class="text-light">Poetry on Lake Simcoe</h5>
-                            <img class="w-50" src="images/muse/section-5-image-2.jpg">
+                            <img class="w-100" style="max-width: 400px" src="images/muse/section-5-image-2.jpg">
                     </div>
                     <div class="carousel-item">
                         <h4 class="text-light">The Cure Is a Forest - Translated by Angela D'Ambra</h4>
@@ -316,7 +334,7 @@ export const museCarousel = `
                     <div class="carousel-item">
                         <h4 class="text-light">L'Infinito</h4>
                         <p class="text-light"> English Translation by Desi Di Nardo, published in La Rivista di Studi Italiani. Written by Poet <a href="https://en.wikipedia.org/wiki/Giacomo_Leopardi" class="bg-00C4D2"> Giacomo Leopardi. </a> </p>
-                        <img class="w-50" src="images/muse/section-8-image-1.png">
+                        <img class="w-100" style="max-width: 400px" src="images/muse/section-8-image-1.png">
                     </div>
                 </div>
                 <a id="museCarouselNext" class="carousel-control-next bg-primary" data-bs-target="#museCarousel" data-bs-slide="next"
