@@ -171,11 +171,13 @@ label {
     float: left;
 }
 .socials { 
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 .socials:hover {
     transform-origin: center;
     transform: rotate(360deg) scale(1.1);
+
+    color: rgb(121, 190, 255) !important;
 }
 
 /* Sidebar */
@@ -419,7 +421,7 @@ main {
 
 /* Section Items */
 .section-title { 
-    border-bottom: solid rgb(54, 134, 255);
+    border-bottom: solid rgb(121, 190, 255);
 }
 
 /* Publications Sections */
